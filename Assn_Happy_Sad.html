@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>First Webpage</title>
+	<script> 
+	function getname(){
+		var name = prompt("What is your name?")
+		alert("It is good to meet you, " + name)
+		document.getElementById("image").src = "happy.jpg"
+		document.getElementById("text").innerHTML = "Have a nice day!"}
+	</script>
+  </head>
+  <body onLoad= 'alert("Hello, I am your friend");'>
+	<center><img src = "sad.png" onClick = 'getname()' id = "image">
+	<br>
+	<h1 id = 'text'>Click The Image</h1></center>
+	
+
+
+  </body>
+</html>
